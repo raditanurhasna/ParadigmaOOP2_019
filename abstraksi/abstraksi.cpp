@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class AbstarksiKlas {
+class AbstraksiKlas {
 private: string x, y;
 public:
 	//method untuk mengisi nilai
@@ -16,3 +16,9 @@ public:
 		cout << "y = " << y << endl;
 	}
 };
+
+int main() {
+	AbstraksiKlas ak;
+	ak.setXY("Yogyakarta", "kampus");
+	ak.display();
+}
